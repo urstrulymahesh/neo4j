@@ -11,7 +11,7 @@ def commoncount(list1,list2):
             count +=1
     return count
 
-authenticate("localhost:7474","neo4j","cmk110996")
+authenticate("localhost:7474","neo4j","neo4j")
 graph = Graph("http://localhost:7474/db/data/")
 array = []
 for fname in iglob(os.path.expanduser('~/Downloads/test/*.json')):
